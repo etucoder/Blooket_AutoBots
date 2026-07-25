@@ -46,6 +46,5 @@ def answer_questions(questions_number : int = 1):
     for i in range(questions_number):
         pyautogui.moveTo(choice(choices))
         pyautogui.click()
-        sleep(0.05)
         pyautogui.click()
 answer_questions()
